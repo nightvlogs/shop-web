@@ -14,6 +14,10 @@ const routes: Routes = [
     path: "cart",
     loadChildren: "./cart/cart.module#CartModule",
   },
+  {
+    path: "blog",
+    loadChildren: "./blog/blog.module#BlogModule",
+  },
 ];
 
 @NgModule({

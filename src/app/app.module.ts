@@ -8,6 +8,7 @@ import { HeaderModule } from './header/header.module';
 import { FooterModule } from './footer/footer.module';
 import { ShopModule } from './shop/shop.module';
 import { CartModule } from './cart/cart.module';
+import { BlogModule } from './blog/blog.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CartModule } from './cart/cart.module';
     HeaderModule,
     FooterModule,
     ShopModule,
-    CartModule
+    CartModule,
+    BlogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
