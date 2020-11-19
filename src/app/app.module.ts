@@ -9,6 +9,7 @@ import { FooterModule } from './footer/footer.module';
 import { ShopModule } from './shop/shop.module';
 import { CartModule } from './cart/cart.module';
 import { BlogModule } from './blog/blog.module';
+import { AuthModule } from './auth/auth.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { BlogModule } from './blog/blog.module';
     FooterModule,
     ShopModule,
     CartModule,
-    BlogModule
+    BlogModule,
+    AuthModule
   ],
   providers: [],
   bootstrap: [AppComponent]
