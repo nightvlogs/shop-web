@@ -4,23 +4,23 @@ import { Routes, RouterModule } from "@angular/router";
 const routes: Routes = [
   {
     path: "",
-    loadChildren: "./home/home.module#HomeModule",
+    loadChildren: "./web/home/home.module#HomeModule",
   },
   {
     path: "shop",
-    loadChildren: "./shop/shop.module#ShopModule",
+    loadChildren: "./web/shop/shop.module#ShopModule",
   },
   {
     path: "cart",
-    loadChildren: "./cart/cart.module#CartModule",
+    loadChildren: "./web/cart/cart.module#CartModule",
   },
   {
     path: "blog",
-    loadChildren: "./blog/blog.module#BlogModule",
+    loadChildren: "./web/blog/blog.module#BlogModule",
   },
   {
     path: "auth",
-    loadChildren: "./auth/auth.module#AuthModule",
+    loadChildren: "./web/auth/auth.module#AuthModule",
   },
 ];
 
