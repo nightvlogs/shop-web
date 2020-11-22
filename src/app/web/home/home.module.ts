@@ -7,6 +7,7 @@ import { ProducFeaturedComponent } from './produc-featured/produc-featured.compo
 import { BannerWrappComponent } from './banner-wrapp/banner-wrapp.component';
 import { ClericTabsComponent } from './cleric-tabs/cleric-tabs.component';
 import { FooterModule } from '../footer/footer.module';
+import { HeaderModule } from '../header/header.module';
 const routes = [
   {
       path     : '',
@@ -19,7 +20,8 @@ const routes = [
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
-    FooterModule
+    FooterModule,
+    HeaderModule
   ],
   declarations: [
     HomeComponent,
