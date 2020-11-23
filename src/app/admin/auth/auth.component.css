@@ -1,0 +1,9 @@
+.auth-body{
+    background-image: url('https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?cs=srgb&dl=pexels-carlos-oliva-3586966.jpg&fm=jpg');
+    position: fixed; 
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    top: 0;
+    background-size: cover;
+}

@@ -10,6 +10,7 @@ import { ShopModule } from './web/shop/shop.module';
 import { CartModule } from './web/cart/cart.module';
 import { BlogModule } from './web/blog/blog.module';
 import { AuthModule } from './web/auth/auth.module';
+import { AdminModule } from './admin/admin/admin.module';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AuthModule } from './web/auth/auth.module';
     ShopModule,
     CartModule,
     BlogModule,
-    AuthModule
+    AuthModule,
+    AdminModule
   ],
   providers: [],
   bootstrap: [AppComponent]

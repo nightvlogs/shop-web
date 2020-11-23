@@ -22,6 +22,14 @@ const routes: Routes = [
     path: "auth",
     loadChildren: "./web/auth/auth.module#AuthModule",
   },
+  {
+    path: "admin",
+    loadChildren: "./admin/admin/admin.module#AdminModule",
+  },
+  {
+    path: "**",
+    redirectTo: "",
+  },
 ];
 
 @NgModule({
