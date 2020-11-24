@@ -1,0 +1,8 @@
+.main-menu > li.menu-item-has-children > a:after {
+	font-family: 'FontAwesome';
+	content: "";
+	margin-left: 5px;
+	font-size: 15px;
+	font-weight: normal;
+	vertical-align: top;
+}
